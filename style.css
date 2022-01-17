@@ -1,0 +1,22 @@
+/* Fonts */
+
+
+/* Root Colors and Fonts */
+
+
+  :root {
+    margin: 0;
+    padding: 0;
+    --banner-color: #000;
+    --body-fonts: "Helvetica", "Arial", sans-serif;
+    --menu-font: 'Courier New', Courier, monospace;
+    --button-color: #FF3541;
+    --heading-color: #FF424D;
+    
+  }
+  
+  p {
+    color: var(--primary-color);
+    font-family: var(--body-fonts);
+    line-height: var(--line-height);
+  }
